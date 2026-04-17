@@ -1,0 +1,50 @@
+
+/* font styles */
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/* background color */
+body {
+  background-color: #f7f0c3;
+}
+
+/* text */
+p {
+  font-size: 18px;
+  color: rgb(144, 189, 234);
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(55, 152, 237);
+  text-align: center;
+}
+h2 {
+  font-size: 28px;
+  color: rgb(106, 175, 235);
+  text-align: center;
+}
+
+.caption {
+  font-size: 14px;
+  color: rgb(21, 23, 25);
+}
+.dino-image {
+  width: 100%;
+  height: auto;
+  float: left;    
+  margin-right: 15px; 
+  width: 200px; 
+}
+p {
+  animation: fadeInText 2s ease-in-out;
+}
+@keyframes fadeInText {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
